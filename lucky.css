@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Fira Sans', sans-serif;
+    background: rgb(224, 124, 124);
+    background: linear-gradient(90deg, rgba(224, 124, 124, 1) 26%, rgba(235, 84, 38, 1) 100%);
+    text-transform: uppercase;
+}
+
+button {
+    background: lime;
+    border-radius: .3rem;
+    width: 5rem;
+    margin: 5px 5px;
+}
+
+#container2 {
+    display: inline-block;
+}
+
+#container1 {
+    display: inline-block;
+}
+
+#functionality {
+    margin-top: 2%;
+    padding: 2%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: black;
+    padding: 3rem;
+    animation-duration: 1.5s;
+    animation-name: big;
+}
+
+@keyframes big {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 4rem;
+    }
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}

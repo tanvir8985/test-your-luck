@@ -1,0 +1,9 @@
+1. two input boxes for two players
+2. save players name into a varible
+3. change label name with player's name on keydown
+4. generate random numbers from 1-6
+5. tie random numbers other with random images
+6. each player has different random numbers
+6. play the game
+7. pass random number into the if else statement to see with number is higher
+8. announce player with highest number as winner
